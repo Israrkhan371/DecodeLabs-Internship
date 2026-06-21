@@ -15,7 +15,7 @@ DecodeLabs-Internship/
 │   ├── script.js
 │   └── README.md
 │
-├── Project-2_Backend-API/
+├── Project_2_backend-api/
 │   ├── server.js
 │   ├── package.json
 │   ├── data/
@@ -28,6 +28,23 @@ DecodeLabs-Internship/
 │   ├── routes/
 │   │   ├── users.js
 │   │   └── products.js
+│   └── README.md
+│
+├── Project-3_Database-Integration/
+│   ├── server.js
+│   ├── package.json
+│   ├── config/
+│   │   └── database.js
+│   ├── middleware/
+│   │   └── validate.js
+│   ├── controllers/
+│   │   ├── userController.js
+│   │   ├── productController.js
+│   │   └── orderController.js
+│   ├── routes/
+│   │   ├── users.js
+│   │   ├── products.js
+│   │   └── orders.js
 │   └── README.md
 │
 └── README.md
@@ -56,7 +73,19 @@ DecodeLabs-Internship/
 | **Goal** | Develop a simple backend REST API to handle application logic without a frontend |
 | **Tech Stack** | Node.js · Express.js |
 | **Key Skills** | REST API Design · HTTP Methods · JSON · Data Validation · Error Handling · Status Codes |
-| **Project README** | [View Details →](./Project-2_Backend-API/README.md) |
+| **Project README** | [View Details →](./Project_2_backend-api/README.md) |
+
+---
+
+### Project 3 — Database Integration
+> **Status:** ✅ Completed
+
+| Detail | Info |
+|---|---|
+| **Goal** | Connect the backend to a real database to store and retrieve data permanently |
+| **Tech Stack** | Node.js · Express.js · SQLite |
+| **Key Skills** | Database Schema Design · CRUD Operations · Primary/Foreign Keys · SQL Joins · SQL Injection Prevention |
+| **Project README** | [View Details →](./Project-3_Database-Integration/README.md) |
 
 ---
 
@@ -66,6 +95,7 @@ DecodeLabs-Internship/
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)
 
 ---
 
